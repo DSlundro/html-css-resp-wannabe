@@ -211,8 +211,7 @@ h3    {font-size: 14px; padding: 0;}
 #why img{
   width: 85px;
   height: auto;
-  margin-left: 0px;
-  margin-top: 20px;
+  margin: 0px;
   left: 0;
 }
 #why h3{
