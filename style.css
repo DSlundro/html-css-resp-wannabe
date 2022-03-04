@@ -165,7 +165,8 @@ img {
 *     {margin: 0;padding: 0;box-sizing: border-box;}
 body  {font-size: 12px;}
 img   {width: 85px;height: auto;}
-h3    {font-size: 14px;}
+h1    {font-size: 20px; padding: 7px 0 0 0; border-bottom: none;}
+h3    {font-size: 14px; padding: 0;}
 /*#endregion*/
 
 /*#region UTILITY*/
@@ -182,6 +183,9 @@ h3    {font-size: 14px;}
 #lezioni .row>.right {
   width: 100vw;
   padding: 7px 5px;
+   display: inline-block;
+    white-space: normal;
+
 }
 #lezioni {
   background-color: #F2F2CD;
@@ -193,31 +197,44 @@ h3    {font-size: 14px;}
 /*#endregion*/
 
 /*#region BLOCCO STEPS */
-#steps{padding-top: 10px;}
+#steps{padding-top: 00px;}
 #steps .row>.left,
 #steps .row>.central,
 #steps .row>.right {
   width: 100%;
   padding: 8px 0px;
 }
+#steps img{margin-top: 0px; width: 85px;}
 /*#endregion BLOCCO STEPS */
 
 /*#region BLOCCO PERCHE */
 #why img{
   width: 85px;
   height: auto;
+  margin-left: 0px;
+  margin-top: 20px;
+  left: 0;
+}
+#why h3{
+  position: relative;
+  left: 0px;
 }
 #why {
   text-align: block;
   background-color: #F2F2CD;
-  display: flex;
-
+  padding: 0 10px;
 }
+
 #why .row>.first,
 #why .row>.second,
 #why .row>.third {
+  width: 100%;
+  display: inline-block;
   padding: 0px 10px;
   margin-top: 20px;
+}
+#why .row{
+  width: 100%;
 }
 #why .row img {
   background-color: #428bca;
